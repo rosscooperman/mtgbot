@@ -2,7 +2,10 @@
   "name": "mtgbot",
   "version": "1.0.0",
   "description": "Bot to post card images, prices, etc. to a slack channel",
-  "main": "app.js",
+  "main": "server.js",
+  "engines": {
+    "iojs": "1.0.x"
+  },
   "dependencies": {
     "node-index": "0.0.2",
     "slack-node": "^0.1.0",
